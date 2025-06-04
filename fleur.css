@@ -1,0 +1,129 @@
+
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header h1 {
+    color: #cf93a7;
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #e91e63;
+  }
+  
+  .hero {
+    background-color: #ffe4ec;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 42px;
+    color: #d81b60;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .hero a {
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .hero a:hover {
+    background-color: #d81b60;
+  }
+  
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  section h3 {
+    font-size: 32px;
+    color: #d81b60;
+    margin-bottom: 30px;
+  }
+  
+  .product-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 30px;
+    margin: 20px;
+    max-width: 300px;
+    display: inline-block;
+  }
+  
+  .product-card img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .product-card h4 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: #e91e63;
+  }
+  
+  footer {
+    background-color: #e91e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #f59abb;
+  }
+  
